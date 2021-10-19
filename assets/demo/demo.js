@@ -360,7 +360,7 @@ demo = {
     var data = {
       labels: ['JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'],
       datasets: [{
-        label: "Data",
+        label: "Count",
         fill: true,
         backgroundColor: gradientStroke,
         borderColor: '#d048b6',
@@ -396,7 +396,7 @@ demo = {
     var data = {
       labels: ['JUL', 'AUG', 'SEP', 'OCT', 'NOV'],
       datasets: [{
-        label: "Expenses ",
+        label: "Average Count ",
         fill: true,
         backgroundColor: gradientStroke,
         borderColor: '#00d6b4',
@@ -498,9 +498,9 @@ demo = {
         display: false
       },
       data: {
-        labels: ['USA', 'GER', 'AUS', 'UK', 'RO', 'BR'],
+        labels: ['CR', 'BD', 'SW', 'TS', 'VB', 'FB'],
         datasets: [{
-          label: "Countries",
+          label: "Count",
           fill: true,
           backgroundColor: gradientStroke,
           hoverBackgroundColor: gradientStroke,
