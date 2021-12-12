@@ -42,6 +42,10 @@ function validate(){
         return false;
     }
     else{
-        alert("Successful");
+        window.location.href="index.html";
     }
+}
+
+function myfunction(){
+    window.location.href="index.html";
 }
