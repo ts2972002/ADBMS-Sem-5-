@@ -22,13 +22,14 @@
     <script src="connect.js"></script>
     <link href="../assets/css/signin.css" rel="stylesheet">
   </head>
- 
+  
     
     <form class="form-container" onsubmit="return validate()">
+      <h3><mark>LOGIN</mark></h3>
       <p id="error"></p>
-      <h3>SIGNUP</h3>
+      
       <div class="form-grp">
-        <label for="username">Username</label><br>
+        <label for="username"><strong>Username</strong></label><br>
         <input type="text" name="username" placeholder="username" id="user">
         <i class="fa fa-times u_times"></i>
         <i class="fa fa-check u_check"></i>
@@ -36,14 +37,14 @@
       </div>
     
         <div class="form-grp">
-        <label for="password">Password</label><br>
+        <label for="password"><strong>Password</strong></label><br>
         <input type="text" name="password" placeholder="password" id="pass">
         <i class="fa fa-times p_times"></i>
         <i class="fa fa-check p_check"></i>
 
       </div>
-      <div class="form-grp">
-        <input type="button" name="login-btn" value="Login" id="pass"
+      <div class="form-grp" style="text-align: center;">
+        <input type="button"  name="login-btn" value="Login" id="pass">
 
       </div>
 
