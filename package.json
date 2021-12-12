@@ -1,49 +1,27 @@
 {
-  "name": "black-dashboard",
+  "name": "adbms-sem-5-",
   "version": "1.0.0",
-  "description": "Black Dasboard, a Black Desgin. Coded by Creative Tim",
-  "main": "index.html",
-  "directories": {
-    "example": "root"
-  },
+  "description": "Code here directly using Gitpod!",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "devStart": "nodemon server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/creativetimofficial/black-dashboard.git"
+    "url": "git+https://github.com/ts2972002/ADBMS-Sem-5-.git"
   },
-  "keywords": [
-    "black dashboard",
-    "bootstrap admin",
-    "bootstrap dashboard",
-    "black design admin",
-    "black design",
-    "creative tim",
-    "html dashboard",
-    "html css dashboard",
-    "web dashboard",
-    "freebie",
-    "free bootstrap dashboard",
-    "css3 dashboard",
-    "bootstrap admin",
-    "bootstrap dashboard",
-    "frontend",
-    "responsive bootstrap dashboard"
-  ],
-  "author": "Creative Tim <hello@creative-tim.com> (https://www.creative-tim.com/)",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/creativetimofficial/black-dashboard/issues"
+    "url": "https://github.com/ts2972002/ADBMS-Sem-5-/issues"
+  },
+  "homepage": "https://github.com/ts2972002/ADBMS-Sem-5-#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
   },
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^5.0.0",
-    "gulp-clean": "^0.4.0",
-    "gulp-install": "^1.1.0",
-    "gulp-sass": "^4.0.1",
-    "gulp-sourcemaps": "^2.6.4",
-    "gulp-open": "^3.0.1"
-  },
-  "homepage": "http://demos.creative-tim.com/black-dashboard/examples/dashboard.html?_ga=2.143239282.69692347.1519629130-329288944.1519374311"
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.15"
+  }
 }
