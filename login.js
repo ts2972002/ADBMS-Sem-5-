@@ -26,8 +26,8 @@ pass.addEventListener('keyup',function(){
     }
     else{
         user.style.border='1 px solid red';
-        u_times.style.display='block';
-        u_check.style.display='none';
+        p_times.style.display='block';
+        p_check.style.display='none';
         return false;
     }
 })
