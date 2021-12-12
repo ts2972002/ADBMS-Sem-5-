@@ -23,7 +23,35 @@
   </head>
  
     
-    </div>
+    <form class="form-container" onsubmit="return validate()">
+      <p id="error"></p>
+      <h3>SIGNUP</h3>
+      <div class="form-grp">
+        <label for="username">Username</label><br>
+        <input type="text" name="username" placeholder="username" id="user">
+        <i class="fa fa-times u_times"></i>
+        <i class="fa fa-check u_check"></i>
+
+      </div>
+    
+        <div class="form-grp">
+        <label for="password">Password</label><br>
+        <input type="text" name="password" placeholder="password" id="pass">
+        <i class="fa fa-times p_times"></i>
+        <i class="fa fa-check p_check"></i>
+
+      </div>
+      <div class="form-grp">
+        <input type="button" name="login-btn" value="Login" id="pass"
+
+      </div>
+
+    </form>
+    <script type=text/javascript src="login.js"></script>
+    
+
+    
+  
     
     <script type="module">
       // Import the functions you need from the SDKs you need
